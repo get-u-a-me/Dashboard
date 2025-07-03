@@ -1,3 +1,3 @@
 # Dashboard
 
-A modern responsive Dashboard
+A modern responsive Dashboard.
