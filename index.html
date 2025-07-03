@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <!-- CDN für Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
-<body>
-    
+
+<body class="container">
+    <header class="header">
+        <section class="search">
+            <label for="searchbar"><i class="fa fa-search" aria-hidden="true"></i></label>
+            <input type="text" id="searchbar" name="searchbar">
+        </section>
+
+        <section class="user-info">
+            <img class="profile-pic" src="img/profile-pic.png" alt="">
+            <p class="welcome-message">Hi there, <br><span>Janobert (@janobert)</span></p>
+        </section>
+
+        <div class="first-section">
+            <i class="fas fa-bell"></i>
+            <img class="profile-pic-small" src="img/profile-pic.png" alt="">
+            <p>Janobert</p>
+        </div>
+        <div class="second-section">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
+
+
+    </header>
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="img/Dashboard.png" alt="">
+            <div>Dashboard</div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i></a>&nbspHome</li>
+                <li><a href="#"><i class="fas fa-user"></i>&nbspProfile</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>&nbspMessages</a></li>
+                <li><a href="#"><i class="fas fa-clock"></i>&nbspHistory</a></li>
+                <li><a href="#"><i class="fas fa-tasks"></i>&nbspTasks</a></li>
+                <li><a href="#"><i class="fas fa-users"></i>&nbspCommunities</a></li>
+            </ul>
+        </nav>
+        <nav class="help">
+            <ul>
+                <li><a href="#"><i class="fas fa-cog"></i>&nbspSettings</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i>&nbspSupport</a></li>
+                <li><a href="#"><i class="fas fa-shield-alt"></i>&nbspPrivacy</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="content">
+        
+    </main>
+
 </body>
+
 </html>
